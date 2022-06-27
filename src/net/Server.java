@@ -3,6 +3,8 @@ package net;
 
 import tools.printer.FilePrinter;
 
+import java.sql.Connection;
+
 public class Server {
     //region Singleton
     private static Server instance;
@@ -21,5 +23,6 @@ public class Server {
         //Say Starting Message
         FilePrinter.info("Starting Castela V95");
 
+        //TODO - Reset Client Login State
     }
 }
