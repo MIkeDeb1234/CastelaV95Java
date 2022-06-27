@@ -1,13 +1,16 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="CastelaV95Java:jar">
+  <artifact type="jar" build-on-make="true" name="CastelaV95Java:jar">
     <output-path>$PROJECT_DIR$/dist</output-path>
-    <root id="root">
-      <element id="archive" name="CastelaV95Java.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="module-output" name="CastelaV95Java" />
+    <root id="archive" name="CastelaV95Java.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </element>
+      <element id="module-output" name="CastelaV95Java" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cores/yamlbeans-1.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cores/mina-core-2.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cores/slf4j-api-1.7.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cores/slf4j-jdk14-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cores/mysql-connector-java-bin.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

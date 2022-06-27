@@ -1,0 +1,4 @@
+ServerConfig:
+    DbUrl: "jdbc:mysql://localhost:3306/castelav95" #v83castelaserver
+    DbUser: "root" #MikeAlphaBravo / root / BravoAlphaDie
+    DbPass: "" #Fp3yf5BWTZ2hgytBdqvb

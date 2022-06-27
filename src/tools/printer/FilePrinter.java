@@ -1,5 +1,6 @@
 package tools.printer;
 
+import java.sql.PreparedStatement;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
@@ -39,7 +40,9 @@ public final class FilePrinter {
     public static void error(Exception ex) {
         ex.printStackTrace();
     }
-
+    public static void printQuery(PreparedStatement ps) {
+        printInColor("[QUERY] " + ps.toString().split(": ")[1], FilePrinterColor.MAGENTA_BOLD);
+    }
     private static void printStackTrace() {
         //Set Color
         System.out.print(FilePrinterColor.RED);
@@ -70,4 +73,6 @@ public final class FilePrinter {
             System.out.println();
         }
     }
+
+
 }

@@ -5,9 +5,11 @@ CREATE TABLE `accounts` (
   `loginStateType` smallint(6) NOT NULL DEFAULT 0,
   `createDate` timestamp NULL DEFAULT current_timestamp(),
   `lastLoginDate` timestamp NOT NULL DEFAULT current_timestamp(),
-  `nxCash` int(11) DEFAULT NULL,
   `banType` smallint(6) DEFAULT NULL,
   `banReason` varchar(255) DEFAULT NULL,
   `tempBanTime` timestamp NULL DEFAULT NULL,
+  `nxCash` int(11) NOT NULL DEFAULT 0,
+  `donationPoints` int(11) NOT NULL DEFAULT 0,
+  `votePoints` int(11) NOT NULL DEFAULT 0,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4;
