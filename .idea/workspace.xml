@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CastelaV95Java:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fedb6b6-5492-4bc9-98cb-269099c1ba60" name="Changes" comment="Added FilePrinter.java">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/net/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tools/printer/FilePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tools/printer/FilePrinterColor.java" afterDir="false" />
+    <list default="true" id="0fedb6b6-5492-4bc9-98cb-269099c1ba60" name="Changes" comment="Added Color Allow + start.bat file to run">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CastelaV95Java_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tools/printer/FilePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tools/printer/FilePrinter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,13 +46,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/CastelaV95Java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CastelaV95Java" />
+      <option name="PROGRAM_PARAMETERS" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,6 +78,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656334665321</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added FilePrinter.java">
+      <created>1656337069066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656337069066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added FilePrinter.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FilePrinter.java" />
+    <MESSAGE value="Added Color Allow + start.bat file to run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Color Allow + start.bat file to run" />
   </component>
 </project>

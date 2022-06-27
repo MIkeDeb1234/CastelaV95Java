@@ -8,6 +8,11 @@ import java.util.stream.Collectors;
 
 public final class FilePrinter {
     private static final DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
+    private static boolean allowColor;
+
+    public static void setAllowColor(boolean allowColor) {
+        FilePrinter.allowColor = allowColor;
+    }
 
     public static void print(Object obj) {
         printInColor(obj, FilePrinterColor.RESET);
@@ -30,6 +35,7 @@ public final class FilePrinter {
         printInColor("[ERROR] " + obj, FilePrinterColor.RED);
         ex.printStackTrace();
     }
+
     public static void error(Exception ex) {
         ex.printStackTrace();
     }
@@ -51,10 +57,17 @@ public final class FilePrinter {
 
     private static void printInColor(Object obj, FilePrinterColor color) {
         //Set Color
-        System.out.print(color);
+        if (allowColor) {
+            System.out.print(color);
+        }
         //Print Time + Print Message
         System.out.printf("%s %s", dtf.format(LocalTime.now()), obj);
+
         //Reset Color
-        System.out.println(FilePrinterColor.RESET);
+        if (allowColor) {
+            System.out.println(FilePrinterColor.RESET);
+        } else {
+            System.out.println();
+        }
     }
 }
