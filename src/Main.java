@@ -8,7 +8,7 @@ public class Main {
         if (args.length > 0) {
             FilePrinter.setAllowColor(Boolean.parseBoolean(args[0]));
         }
-        IoBuffer.setUseDirectBuffer(false);     // join IO operations performed by lxconan
+        IoBuffer.setUseDirectBuffer(false);
         IoBuffer.setAllocator(new SimpleBufferAllocator());
 
         Server.getInstance().init();
