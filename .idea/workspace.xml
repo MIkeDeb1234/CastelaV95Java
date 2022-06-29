@@ -6,10 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fedb6b6-5492-4bc9-98cb-269099c1ba60" name="Changes" comment="Sync">
-      <change afterPath="$PROJECT_DIR$/src/net/server/AbstractServer.java" afterDir="false" />
+    <list default="true" id="0fedb6b6-5492-4bc9-98cb-269099c1ba60" name="Changes" comment="Added DatabaseConnection.java + Added Reset Account Login State">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
     <configuration name="start" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="CastelaV95Java" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/Users/user/IdeaProjects/CastelaV95Java" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\user\IdeaProjects\CastelaV95Java" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="start.bat" />
       <option name="PARAMETERS" value="" />
@@ -130,8 +128,7 @@
     <MESSAGE value="Added Color Allow + start.bat file to run" />
     <MESSAGE value="Added LoginStateType.java and Cores" />
     <MESSAGE value="Added DatabaseConnection.java + Added Reset Account Login State" />
-    <MESSAGE value="Sync" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added DatabaseConnection.java + Added Reset Account Login State" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
